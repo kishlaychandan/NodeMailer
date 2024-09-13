@@ -8,7 +8,8 @@ function Contact() {
     const [loading, setLoading] = useState(false);
     function handleSubmit(e) {
       e.preventDefault();
-  
+
+      //
       setLoading(true)
       if (!name || !email || !message) {
         alert('Please fill out all fields');
